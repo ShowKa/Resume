@@ -33,9 +33,16 @@ export default {
     border: 1px solid #aaaaaa;
     &__header {
       height: percentage($header_ratio);
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
     }
     &__body {
       height: percentage(1 - $header_ratio);
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 }
 </style>
