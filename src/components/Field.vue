@@ -26,7 +26,16 @@ export default {
 <style lang="scss">
 @import 'assets/app.scss';
 .field {
+    // var
+    $header_ratio: 0.2;
+    // style
     height: $width * 1.5;
-    border: 1px solid #222222;
+    border: 1px solid #aaaaaa;
+    &__header {
+      height: percentage($header_ratio);
+    }
+    &__body {
+      height: percentage(1 - $header_ratio);
+    }
 }
 </style>
