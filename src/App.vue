@@ -1,14 +1,14 @@
 <template>
   <div class="full-width center-content">
-    <hello-component />
+    <Field />
   </div>
 </template>
 
 <script>
-import HelloComponent from './components/HelloComponent.vue'
+import Field from './components/Field.vue'
 export default {
   components: {
-    HelloComponent
+    Field
   }
 }
 </script>

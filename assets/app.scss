@@ -1,8 +1,12 @@
-.full-width {
-  width: 100%;
+// Field Sizing
+$width : 990px;
+@media (min-width: 1200px) {
+  .container{
+      max-width: $width !important;
+      min-width: $width;
+  }
 }
-.center-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
