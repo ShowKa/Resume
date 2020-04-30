@@ -23,6 +23,8 @@ export default {
 <style lang="scss">
 @import 'assets/app.scss';
 .body {
+  padding-top: 10px;
+  padding-bottom: 10px;
   height: 100%;
   &__row {
     height: 100%;
