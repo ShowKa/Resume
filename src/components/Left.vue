@@ -37,6 +37,7 @@ export default {
   // elements
   &__picture {
     margin-top: 50px;
+    margin-left: 40px;
   }
   &__profile {
     @extend %small-section_margin;

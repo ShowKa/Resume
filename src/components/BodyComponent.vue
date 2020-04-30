@@ -36,6 +36,7 @@ export default {
   }
   &__left {
     height: 100%;
+    padding-right: 25px !important;
   }
   &__right {
     border-left: 1px solid $color_on-background_light;
