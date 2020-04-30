@@ -1,12 +1,17 @@
 // Field Sizing
-$width : 990px;
+$width: 990px;
 @media (min-width: 1200px) {
-  .container{
-      max-width: $width !important;
-      min-width: $width;
+  .container {
+    max-width: $width !important;
+    min-width: $width;
   }
 }
 .container {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+// color theme
+$color_background: #ffffff;
+$color_on-background: #737373;
+$color_on-background_light: #a5a5af;
+$color_primary: #bfd2d6;
