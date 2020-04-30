@@ -2,20 +2,24 @@
   <div class="about">
     <ul class="about__list">
       <li>
-        <HomeAddress class="about__list-icon" icon-size="19px" opacity="0.5" />
-        {{ $HomeAddress }}
+        <Job class="about__list-icon" icon-size="19px" opacity="0.3" />
+        {{ $Job }}
       </li>
       <li>
-        <MailAddress class="about__list-icon" icon-size="19px" opacity="0.5" />
-        {{ $MailAddress }}
+        <Birthday class="about__list-icon" icon-size="19px" opacity="0.3" />
+        {{ $Birthday }} ({{ age }})
       </li>
       <li>
-        <PhoneNumber class="about__list-icon" icon-size="19px" opacity="0.5" />
+        <PhoneNumber class="about__list-icon" icon-size="19px" opacity="0.3" />
         {{ $PhoneNumber }}
       </li>
       <li>
-        <Birthday class="about__list-icon" icon-size="19px" opacity="0.5" />
-        {{ $Birthday }} ({{ age }})
+        <MailAddress class="about__list-icon" icon-size="19px" opacity="0.3" />
+        {{ $MailAddress }}
+      </li>
+      <li>
+        <HomeAddress class="about__list-icon" icon-size="19px" opacity="0.3" />
+        {{ $HomeAddress }}
       </li>
     </ul>
   </div>
@@ -26,12 +30,14 @@ import HomeAddress from './icon/HomeAddress.vue'
 import MailAddress from './icon/MailAddress.vue'
 import PhoneNumber from './icon/PhoneNumber.vue'
 import Birthday from './icon/Birthday.vue'
+import Job from './icon/Job.vue'
 export default {
   components: {
     HomeAddress,
     MailAddress,
     PhoneNumber,
-    Birthday
+    Birthday,
+    Job
   },
   computed: {
     age() {
@@ -51,17 +57,13 @@ function _calculateAge(yyyyMMdd) {
 @import 'assets/app.scss';
 .about {
   @extend %text_short;
-  // var
-  $list_height: 19px;
-  // padding-top: 30px;
-  // style
   // elements
   &__list {
     padding: 0;
     list-style-type: none;
     li {
       margin-bottom: 20px;
-      height: $list_height;
+      height: 19px;
     }
   }
   &__list-icon {
