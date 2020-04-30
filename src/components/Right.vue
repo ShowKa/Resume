@@ -1,11 +1,8 @@
 <template>
-<div class="right">
-    right
-</div>
+  <div class="right" />
 </template>
 <script>
-export default {
-}
+export default {}
 </script>
 <style lang="scss">
 @import 'assets/app.scss';

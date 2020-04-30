@@ -28,8 +28,8 @@ export default {
     height: 100%;
     padding-top: 40px;
     padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 </style>

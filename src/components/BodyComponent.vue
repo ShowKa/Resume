@@ -1,14 +1,14 @@
 <template>
-<div class="body">
-  <div class="body__row row">
-    <div class="body__left col-md-4">
-      <Left />
-    </div>
-    <div class="body__right col-md-8">
-      <Right />
+  <div class="body">
+    <div class="body__row row">
+      <div class="body__left col-md-4">
+        <Left />
+      </div>
+      <div class="body__right col-md-8">
+        <Right />
+      </div>
     </div>
   </div>
-</div>
 </template>
 <script>
 import Left from './Left.vue'
@@ -29,10 +29,16 @@ export default {
   &__row {
     height: 100%;
   }
+  &__separator {
+    height: 100%;
+    border: 1px solid #000000;
+    float: left;
+  }
   &__left {
     height: 100%;
   }
   &__right {
+    border-left: 1px solid $color_on-background_light;
     height: 100%;
   }
 }
