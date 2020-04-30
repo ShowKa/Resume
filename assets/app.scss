@@ -12,6 +12,8 @@ body {
   width: 100%;
   height: 100%;
 }
+// header
+$header_height: 20px;
 // print
 @page {
   size: A4;
@@ -22,6 +24,7 @@ $color_background: #ffffff;
 $color_on-background: #737373;
 $color_on-background_light: #a5a5af;
 $color_primary: #bfd2d6;
+$color_on-primary: #ffffff;
 // font
 @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 $font-primary: 'Noto Sans Japanese';

@@ -1,15 +1,17 @@
 <template>
   <div class="app full-width center-content">
-    <div class="app__header" />
+    <HeaderComponent class="app__header" />
     <Field class="app__field" />
   </div>
 </template>
 
 <script>
 import Field from './components/Field.vue'
+import HeaderComponent from './components/HeaderComponent.vue'
 export default {
   components: {
-    Field
+    Field,
+    HeaderComponent
   }
 }
 </script>
@@ -24,8 +26,7 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
-    height: 20px;
-    background-color: $color_primary;
+    height: $header_height;
   }
 }
 </style>

@@ -12,8 +12,7 @@ import BodyComponent from './BodyComponent.vue'
 export default {
   components: {
     BodyComponent
-  },
-  methods: {}
+  }
 }
 </script>
 <style lang="scss">

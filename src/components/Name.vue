@@ -25,6 +25,7 @@ export default {}
     color: $color-primary;
     font-weight: 300;
     letter-spacing: 15px;
+    font-size: 16px;
   }
 }
 </style>
