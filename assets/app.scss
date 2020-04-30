@@ -6,7 +6,6 @@ html {
   margin-left: auto !important;
   margin-right: auto !important;
   padding: 0;
-  border: 1px solid #aaaaaa;
 }
 body {
   width: 100%;
@@ -24,6 +23,7 @@ $color_background: #ffffff;
 $color_on-background: #737373;
 $color_on-background_light: #bfbfbf;
 $color_primary: #bfd2d6;
+$color_primary_variant: darken($color_primary, 20%);
 $color_on-primary: #ffffff;
 // font
 @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
@@ -39,4 +39,17 @@ $font-primary: 'Noto Sans Japanese';
   color: darken($color_on-background, 40%);
   font-weight: 300;
   letter-spacing: 1px;
+}
+%text_short_light {
+  font-size: 11px;
+  color: darken($color_on-background, 20%);
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+%text_chapter-title {
+  font-size: 37px;
+  color: $color_primary;
+  font-weight: 300;
+  letter-spacing: -1px;
 }
