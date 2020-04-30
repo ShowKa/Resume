@@ -23,6 +23,7 @@ export default {}
   }
   &__name-alphabet {
     color: $color-primary;
+    font-weight: 300;
     letter-spacing: 15px;
   }
 }

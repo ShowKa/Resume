@@ -20,13 +20,11 @@ export default {
 @import 'assets/app.scss';
 .field {
   // container
-  height: $width * 1.5;
-  border: 1px solid #aaaaaa;
+  height: 100%;
   background-color: $color_background;
   // text
   color: $color_on-background;
   font-family: $font-primary;
-  // elements
   &__body {
     height: 100%;
     padding-top: 30px;
