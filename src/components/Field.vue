@@ -26,7 +26,7 @@ export default {
   font-family: $font-primary;
   &__body {
     height: 100%;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
