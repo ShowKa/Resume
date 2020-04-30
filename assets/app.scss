@@ -28,3 +28,15 @@ $color_on-primary: #ffffff;
 // font
 @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 $font-primary: 'Noto Sans Japanese';
+// text
+%text_long {
+  font-size: 13px;
+  color: darken($color_on-background_light, 20%);
+  font-weight: 300;
+}
+%text_short {
+  font-size: 13px;
+  color: darken($color_on-background, 40%);
+  font-weight: 300;
+  letter-spacing: 1px;
+}

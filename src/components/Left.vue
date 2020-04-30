@@ -31,8 +31,8 @@ export default {
   %small-section_margin {
     border-top: 1px solid $color_on-background_light;
     height: $small-section_height;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   // elements
   &__picture {
