@@ -29,7 +29,7 @@ export default {
   // var
   $small-section_height: 300px;
   %small-section_margin {
-    border-top: 1px solid $color_on-background_light;
+    border-top: $border;
     height: $small-section_height;
     padding-top: 30px;
     padding-bottom: 30px;

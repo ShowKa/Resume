@@ -29,17 +29,12 @@ export default {
   &__row {
     height: 100%;
   }
-  &__separator {
-    height: 100%;
-    border: 1px solid #000000;
-    float: left;
-  }
   &__left {
     height: 100%;
     padding-right: 25px !important;
   }
   &__right {
-    border-left: 1px solid $color_on-background_light;
+    border-left: $border;
     height: 100%;
   }
 }
