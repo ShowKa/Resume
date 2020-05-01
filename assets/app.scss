@@ -36,7 +36,7 @@ $font-primary: 'Noto Sans Japanese';
 }
 %text_short {
   font-size: 12px;
-  color: darken($color_on-background, 40%);
+  color: darken($color_on-background, 30%);
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -46,10 +46,15 @@ $font-primary: 'Noto Sans Japanese';
   font-weight: 100;
   letter-spacing: 1px;
 }
-
 %text_chapter-title {
   font-size: 37px;
   color: $color_primary;
   font-weight: 300;
   letter-spacing: -1px;
+}
+%text_chapter-title_sub {
+  font-size: 15px;
+  color: darken($color_on-background, 35%);
+  font-weight: 300;
+  letter-spacing: 7px;
 }
