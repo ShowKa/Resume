@@ -27,7 +27,6 @@ export default {
 @import 'assets/app.scss';
 .left {
   // var
-  $small-section_height: 300px;
   %small-section_margin {
     border-top: $border;
     height: $small-section_height;
