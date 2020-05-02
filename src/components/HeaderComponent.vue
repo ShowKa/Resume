@@ -20,7 +20,6 @@ export default {}
     height: $header_height;
     // font
     color: $color_on-primary;
-    font-family: $font-primary;
     // text position
     padding-left: 30px;
     text-align: left;

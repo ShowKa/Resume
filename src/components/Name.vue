@@ -16,8 +16,8 @@ export default {}
 @import 'assets/app.scss';
 .name {
   &__full-name {
+    font-family: $font-secondary;
     font-size: 71px;
-    font-family: $font-primary;
     font-weight: 100;
     letter-spacing: -7px;
   }

@@ -20,6 +20,7 @@ export default {
 @import 'assets/app.scss';
 .app {
   height: 100%;
+  font-family: $font-primary;
   // elements
   &__header {
     position: fixed;

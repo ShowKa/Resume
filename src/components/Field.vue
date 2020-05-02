@@ -23,7 +23,6 @@ export default {
   background-color: $color_background;
   // text
   color: $color_on-background;
-  font-family: $font-primary;
   &__body {
     height: 100%;
     padding-top: 40px;
