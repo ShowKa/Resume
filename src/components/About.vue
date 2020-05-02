@@ -59,7 +59,8 @@ function _calculateAge(yyyyMMdd) {
   @extend %text_short;
   // elements
   &__list {
-    padding: 0;
+    padding-left: 0;
+    padding-top: 15px;
     list-style-type: none;
     li {
       margin-bottom: 20px;

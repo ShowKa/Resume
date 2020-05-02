@@ -4,7 +4,6 @@
       <span>
         {{ name }}
       </span>
-      <span>,</span>
       <span class="school__major">
         {{ major }}
       </span>

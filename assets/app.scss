@@ -41,7 +41,7 @@ $font-secondary: 'Kaiti SC';
 %text_short {
   font-family: $font-primary;
   font-size: 12px;
-  color: darken($color_on-background, 30%);
+  color: darken($color_on-background, 25%);
   font-weight: 300;
   letter-spacing: 1px;
 }
