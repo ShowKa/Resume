@@ -19,7 +19,7 @@ export default {
   margin-top: 11px;
   padding-left: 25px;
   &__pe {
-    height: 773px;
+    height: 818px;
   }
   &__reason {
     border-top: $border;
